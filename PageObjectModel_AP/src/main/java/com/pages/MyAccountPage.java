@@ -18,4 +18,8 @@ public class MyAccountPage extends WebDriverUtils implements MyAccountPageProper
 	public String getCustomerAccountName() {
 		return getText(VIEW_MY_CUSTOMER_ACCOUNT);
 	}
+	
+	public void clickonWishList() {
+		System.out.println("Wishlist Clciked");
+	}
 }
